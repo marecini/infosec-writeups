@@ -2,4 +2,4 @@
 title: Home of the Hacker
 ---
 
-just check
+just checking
