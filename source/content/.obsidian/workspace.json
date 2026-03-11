@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/DOM.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "Untitled"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM Web Application Pentesting/DOM.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DOM"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM Web Application Pentesting/DOM.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DOM"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM Web Application Pentesting/DOM.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DOM"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -196,20 +196,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "7b8c971cfbbc5f81",
   "lastOpenFiles": [
+    "index.md",
+    "THM Web Application Pentesting/DOM.md",
+    "THM Web Application Pentesting/XSS 1.md",
     "HackTheBox",
     "Untitled.md",
-    "THM Web Application Pentesting/DOM.md",
     "THM Web Application Pentesting/index.md",
     "THM Web Application Pentesting/BASH.md",
-    "THM Web Application Pentesting/XSS 1.md",
     "index 1.md",
-    "index.md",
     "THM Web Application Pentesting/XSS.md",
     "THM Web Application Pentesting/CSRF.md",
     "THM Web Application Pentesting/Abusing JWT Validation.md",
