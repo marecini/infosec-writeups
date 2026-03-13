@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/CORS & SOP.md",
+                "file": "THM Web Application Pentesting/Whats Your Name?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CORS & SOP"
+              "title": "Whats Your Name?"
             }
           }
         ]
@@ -172,9 +172,18 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Screenshot_20260313_124029.png",
+    "Screenshot_20260313_123201.png",
+    "Screenshot_20260313_123105.png",
+    "Screenshot_20260313_123011.png",
+    "Untitled 1.md",
+    "THM Web Application Pentesting/Whats Your Name?.md",
+    "Screenshot_20260313_122746.png",
+    "Screenshot_20260313_122225.png",
+    "Screenshot_20260313_121826.png",
+    "THM Web Application Pentesting/CORS & SOP.md",
     "THM Web Application Pentesting/ORM Injection.md",
     "62a7685ca6e7ce005d3f3afe-1719304704357.png",
-    "THM Web Application Pentesting/CORS & SOP.md",
     "Screenshot_20260312_174122.png",
     "Screenshot_20260312_174039.png",
     "THM Web Application Pentesting/DOM.md",
