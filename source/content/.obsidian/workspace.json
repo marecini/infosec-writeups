@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/DOM.md",
+                "file": "THM Web Application Pentesting/ORM Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "ORM Injection"
             }
           }
         ]
@@ -172,10 +172,15 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "62a7685ca6e7ce005d3f3afe-1719304704357.png",
+    "THM Web Application Pentesting/CORS & SOP.md",
+    "THM Web Application Pentesting/ORM Injection.md",
+    "Screenshot_20260312_174122.png",
+    "Screenshot_20260312_174039.png",
+    "THM Web Application Pentesting/DOM.md",
     "Screenshot_20260312_135021.png",
     "index.md",
     "Untitled.md",
-    "THM Web Application Pentesting/DOM.md",
     "THM Web Application Pentesting/index.md",
     "THM Web Application Pentesting/XSS 1.md",
     "HackTheBox",
