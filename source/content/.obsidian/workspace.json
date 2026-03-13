@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/Whats Your Name?.md",
+                "file": "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
                 "mode": "source",
                 "source": false
               },
@@ -172,6 +172,11 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "THM Web Application Pentesting/CSRF.md",
+    "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
+    "THM Web Application Pentesting/CORS & SOP.md",
+    "THM Web Application Pentesting/BugBounty - Ideas for Hunting.md",
+    "THM Web Application Pentesting/Rooms",
     "Screenshot_20260313_130443.png",
     "Screenshot_20260313_125659.png",
     "Screenshot_20260313_125559.png",
@@ -182,10 +187,7 @@
     "Screenshot_20260313_123105.png",
     "Screenshot_20260313_123011.png",
     "Untitled 1.md",
-    "THM Web Application Pentesting/Whats Your Name?.md",
     "Screenshot_20260313_122746.png",
-    "Screenshot_20260313_122225.png",
-    "THM Web Application Pentesting/CORS & SOP.md",
     "THM Web Application Pentesting/ORM Injection.md",
     "THM Web Application Pentesting/DOM.md",
     "index.md",
@@ -196,7 +198,6 @@
     "THM Web Application Pentesting/BASH.md",
     "index 1.md",
     "THM Web Application Pentesting/XSS.md",
-    "THM Web Application Pentesting/CSRF.md",
     "THM Web Application Pentesting/Abusing JWT Validation.md",
     "category-folder/index.md",
     "category-folder/Some note.md",
