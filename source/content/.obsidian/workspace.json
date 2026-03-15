@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
+                "file": "THM Web Application Pentesting/Rooms/Include.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Whats Your Name?"
+              "title": "Include"
             }
           }
         ]
@@ -172,22 +172,27 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "encoded_password.png",
+    "Screenshot_20260315_103323.png",
+    "api_details.png",
+    "activity_form.png",
+    "THM Web Application Pentesting/Prototype Pollution.md",
+    "THM Web Application Pentesting/Rooms/Include.md",
+    "apache_urls.png",
+    "THM Web Application Pentesting/Use of PHP Wrappers for File Traversal & RCE.md",
+    "THM Web Application Pentesting/PHP.md",
+    "THM Web Application Pentesting/LFI & RFI.md",
+    "nodejsapp.png",
+    "session_management_nodeapp.png",
+    "scanning_target.png",
+    "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "admin_flag.png",
     "Screenshot_20260314_104640.png",
     "Screenshot_20260314_104100.png",
-    "Screenshot_20260314_104218.png",
-    "Screenshot_20260314_104121.png",
-    "Screenshot_20260314_095737.png",
-    "Screenshot_20260314_094401.png",
-    "Screenshot_20260314_093337.png",
     "THM Web Application Pentesting/CSRF.md",
-    "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "THM Web Application Pentesting/CORS & SOP.md",
     "THM Web Application Pentesting/BugBounty - Ideas for Hunting.md",
     "THM Web Application Pentesting/Rooms",
-    "Screenshot_20260313_130443.png",
-    "Screenshot_20260313_125659.png",
-    "Screenshot_20260313_125559.png",
     "Untitled 1.md",
     "THM Web Application Pentesting/ORM Injection.md",
     "THM Web Application Pentesting/DOM.md",
