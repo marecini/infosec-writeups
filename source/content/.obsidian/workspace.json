@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/Rooms/Include.md",
+                "file": "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Include"
+              "title": "HTTP Request Smuggling Web Sockets"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.51103591918945
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -172,10 +172,14 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "THM Web Application Pentesting/Impacket.md",
+    "THM Web Application Pentesting/HTTP Request Smuggling.md",
+    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
+    "THM Web Application Pentesting/Rooms/Include.md",
+    "Web Application Red Teaming",
     "secondflag.png",
     "ssh_bruteforce.png",
     "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
-    "THM Web Application Pentesting/Rooms/Include.md",
     "encoded_password.png",
     "Screenshot_20260315_103323.png",
     "api_details.png",
@@ -188,7 +192,6 @@
     "nodejsapp.png",
     "session_management_nodeapp.png",
     "scanning_target.png",
-    "admin_flag.png",
     "THM Web Application Pentesting/CSRF.md",
     "THM Web Application Pentesting/CORS & SOP.md",
     "THM Web Application Pentesting/BugBounty - Ideas for Hunting.md",
