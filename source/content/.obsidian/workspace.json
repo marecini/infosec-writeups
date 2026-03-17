@@ -172,13 +172,18 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "web_socket_hint.png",
+    "specific_ports_scan.png",
+    "THM Web Application Pentesting/Rooms/injectics room.md",
+    "THM Web Application Pentesting/SQLi.md",
+    "THM Web Application Pentesting/Rooms/El Bandito.md",
+    "gobuster2_8080.png",
     "dirsearch.png",
     "mappings_url.png",
     "h2-up.png",
     "burn.html.png",
     "dirs_8008.png",
     "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
-    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/HTTP Request Smuggling.md",
     "THM Web Application Pentesting/Rooms/Include.md",
@@ -187,9 +192,6 @@
     "ssh_bruteforce.png",
     "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "encoded_password.png",
-    "Screenshot_20260315_103323.png",
-    "api_details.png",
-    "activity_form.png",
     "THM Web Application Pentesting/Prototype Pollution.md",
     "THM Web Application Pentesting/Use of PHP Wrappers for File Traversal & RCE.md",
     "THM Web Application Pentesting/PHP.md",
@@ -209,8 +211,6 @@
     "THM Web Application Pentesting/BASH.md",
     "index 1.md",
     "THM Web Application Pentesting/XSS.md",
-    "THM Web Application Pentesting/Abusing JWT Validation.md",
-    "category-folder/index.md",
     "category-folder"
   ]
 }
