@@ -172,6 +172,7 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "cracked_hash_using_john.png",
     "first_payload_for_first_flag.png",
     "vuln_endpoint_for_websocket.png",
     "first_flag.png",
@@ -185,7 +186,6 @@
     "dirsearch.png",
     "mappings_url.png",
     "h2-up.png",
-    "burn.html.png",
     "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/HTTP Request Smuggling.md",
