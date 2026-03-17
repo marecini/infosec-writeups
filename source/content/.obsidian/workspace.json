@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
+                "file": "THM Web Application Pentesting/Rooms/El Bandito.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP Request Smuggling Web Sockets"
+              "title": "El Bandito"
             }
           }
         ]
@@ -172,9 +172,15 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "dirsearch.png",
+    "mappings_url.png",
+    "h2-up.png",
+    "burn.html.png",
+    "dirs_8008.png",
+    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
+    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/HTTP Request Smuggling.md",
-    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
     "THM Web Application Pentesting/Rooms/Include.md",
     "Web Application Red Teaming",
     "secondflag.png",
@@ -185,13 +191,9 @@
     "api_details.png",
     "activity_form.png",
     "THM Web Application Pentesting/Prototype Pollution.md",
-    "apache_urls.png",
     "THM Web Application Pentesting/Use of PHP Wrappers for File Traversal & RCE.md",
     "THM Web Application Pentesting/PHP.md",
     "THM Web Application Pentesting/LFI & RFI.md",
-    "nodejsapp.png",
-    "session_management_nodeapp.png",
-    "scanning_target.png",
     "THM Web Application Pentesting/CSRF.md",
     "THM Web Application Pentesting/CORS & SOP.md",
     "THM Web Application Pentesting/BugBounty - Ideas for Hunting.md",
@@ -209,7 +211,6 @@
     "THM Web Application Pentesting/XSS.md",
     "THM Web Application Pentesting/Abusing JWT Validation.md",
     "category-folder/index.md",
-    "category-folder/Some note.md",
     "category-folder"
   ]
 }
