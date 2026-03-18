@@ -170,8 +170,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "flag.png",
+    "bit_filp_script_attack.png",
+    "vuln_role_value.png",
     "Screenshot_20260318_192818.png",
     "Screenshot_20260318_192616.png",
     "Web Application Red Teaming/Cryptographic Failures",
@@ -208,9 +211,6 @@
     "first_flag.png",
     "web_socket_hint 1.png",
     "web_socket_hint.png",
-    "specific_ports_scan.png",
-    "gobuster2_8080.png",
-    "dirsearch.png",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
