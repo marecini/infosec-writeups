@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/Rooms/El Bandito.md",
+                "file": "THM Web Application Pentesting/Impacket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "El Bandito"
+              "title": "Impacket"
             }
           }
         ]
@@ -170,8 +170,34 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
+    "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
+    "THM Web Application Pentesting/Module notes",
+    "THM Web Application Pentesting/Web Application Red Teaming",
+    "THM Web Application Pentesting/BASH.md",
+    "THM Web Application Pentesting/Module notes/CORS & SOP.md",
+    "THM Web Application Pentesting/Module notes/CSRF.md",
+    "THM Web Application Pentesting/Module notes/DOM.md",
+    "THM Web Application Pentesting/Module notes/HTTP Request Smuggling.md",
+    "THM Web Application Pentesting/Impacket.md",
+    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
+    "THM Web Application Pentesting/Module notes/LFI & RFI.md",
+    "THM Web Application Pentesting/index.md",
+    "THM Web Application Pentesting/Module notes/LDAP.md",
+    "THM Web Application Pentesting/Module notes/ORM Injection.md",
+    "THM Web Application Pentesting/Module notes/PHP.md",
+    "THM Web Application Pentesting/Module notes/PHP Object Injection.md",
+    "THM Web Application Pentesting/Module notes/Prototype Pollution.md",
+    "THM Web Application Pentesting/Module notes/SQLi.md",
+    "THM Web Application Pentesting/Some note.md",
+    "THM Web Application Pentesting/Module notes/SSTi.md",
+    "THM Web Application Pentesting/SSRF.md",
+    "THM Web Application Pentesting/Module notes/Use of PHP Wrappers for File Traversal & RCE.md",
+    "THM Web Application Pentesting/Virtual Environment.md",
+    "THM Web Application Pentesting/Module notes/XSS.md",
+    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "cracked_hash_using_john.png",
     "first_payload_for_first_flag.png",
     "vuln_endpoint_for_websocket.png",
@@ -180,37 +206,13 @@
     "web_socket_hint.png",
     "specific_ports_scan.png",
     "THM Web Application Pentesting/Rooms/injectics room.md",
-    "THM Web Application Pentesting/SQLi.md",
-    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "gobuster2_8080.png",
     "dirsearch.png",
     "mappings_url.png",
-    "h2-up.png",
-    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
-    "THM Web Application Pentesting/Impacket.md",
-    "THM Web Application Pentesting/HTTP Request Smuggling.md",
     "THM Web Application Pentesting/Rooms/Include.md",
     "Web Application Red Teaming",
-    "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
-    "THM Web Application Pentesting/Prototype Pollution.md",
-    "THM Web Application Pentesting/Use of PHP Wrappers for File Traversal & RCE.md",
-    "THM Web Application Pentesting/PHP.md",
-    "THM Web Application Pentesting/LFI & RFI.md",
-    "THM Web Application Pentesting/CSRF.md",
-    "THM Web Application Pentesting/CORS & SOP.md",
-    "THM Web Application Pentesting/BugBounty - Ideas for Hunting.md",
     "THM Web Application Pentesting/Rooms",
-    "Untitled 1.md",
-    "THM Web Application Pentesting/ORM Injection.md",
-    "THM Web Application Pentesting/DOM.md",
-    "index.md",
-    "Untitled.md",
-    "THM Web Application Pentesting/index.md",
-    "THM Web Application Pentesting/XSS 1.md",
     "HackTheBox",
-    "THM Web Application Pentesting/BASH.md",
-    "index 1.md",
-    "THM Web Application Pentesting/XSS.md",
     "category-folder"
   ]
 }
