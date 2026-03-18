@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM Web Application Pentesting/Impacket.md",
+                "file": "THM Web Application Pentesting/Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Impacket"
+              "title": "Breaking Crypto The Simple Way"
             }
           }
         ]
@@ -170,8 +170,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Screenshot_20260318_192818.png",
+    "Screenshot_20260318_192616.png",
+    "THM Web Application Pentesting/Web Application Red Teaming/Cryptographic Failures",
+    "THM Web Application Pentesting/Impacket.md",
+    "THM Web Application Pentesting/Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
+    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
     "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
     "THM Web Application Pentesting/Module notes",
@@ -181,7 +187,6 @@
     "THM Web Application Pentesting/Module notes/CSRF.md",
     "THM Web Application Pentesting/Module notes/DOM.md",
     "THM Web Application Pentesting/Module notes/HTTP Request Smuggling.md",
-    "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
     "THM Web Application Pentesting/Module notes/LFI & RFI.md",
     "THM Web Application Pentesting/index.md",
@@ -197,7 +202,6 @@
     "THM Web Application Pentesting/Module notes/Use of PHP Wrappers for File Traversal & RCE.md",
     "THM Web Application Pentesting/Virtual Environment.md",
     "THM Web Application Pentesting/Module notes/XSS.md",
-    "THM Web Application Pentesting/Rooms/El Bandito.md",
     "cracked_hash_using_john.png",
     "first_payload_for_first_flag.png",
     "vuln_endpoint_for_websocket.png",
@@ -205,11 +209,8 @@
     "web_socket_hint 1.png",
     "web_socket_hint.png",
     "specific_ports_scan.png",
-    "THM Web Application Pentesting/Rooms/injectics room.md",
     "gobuster2_8080.png",
     "dirsearch.png",
-    "mappings_url.png",
-    "THM Web Application Pentesting/Rooms/Include.md",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
