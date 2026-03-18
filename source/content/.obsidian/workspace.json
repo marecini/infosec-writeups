@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
+                "file": "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breaking Crypto The Simple Way"
+              "title": "Length Extensions Attack"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
+    "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
     "flag.png",
     "bit_filp_script_attack.png",
     "vuln_role_value.png",
@@ -179,7 +181,6 @@
     "Screenshot_20260318_192616.png",
     "Web Application Red Teaming/Cryptographic Failures",
     "THM Web Application Pentesting/Impacket.md",
-    "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
     "THM Web Application Pentesting/Rooms/El Bandito.md",
     "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
     "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
@@ -210,7 +211,6 @@
     "vuln_endpoint_for_websocket.png",
     "first_flag.png",
     "web_socket_hint 1.png",
-    "web_socket_hint.png",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
