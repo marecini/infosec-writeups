@@ -172,6 +172,7 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "vuln_url_signature.png",
     "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
     "flag.png",
@@ -205,7 +206,6 @@
     "THM Web Application Pentesting/SSRF.md",
     "THM Web Application Pentesting/Module notes/Use of PHP Wrappers for File Traversal & RCE.md",
     "THM Web Application Pentesting/Virtual Environment.md",
-    "THM Web Application Pentesting/Module notes/XSS.md",
     "cracked_hash_using_john.png",
     "first_payload_for_first_flag.png",
     "vuln_endpoint_for_websocket.png",
