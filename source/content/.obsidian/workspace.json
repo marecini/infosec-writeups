@@ -172,6 +172,7 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "modified_cookie.png",
     "vuln_url_signature.png",
     "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
@@ -210,7 +211,6 @@
     "first_payload_for_first_flag.png",
     "vuln_endpoint_for_websocket.png",
     "first_flag.png",
-    "web_socket_hint 1.png",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",

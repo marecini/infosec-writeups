@@ -26,11 +26,87 @@ In the URL the signature is exposed
 2. cd into directory
 3. run `"make"` command to build it 
 
+**Vulnerable Code**
+
+
+```php
+require_once("secrets.php");
+
+function sign($str, $secret) {
+    return hash('sha256', $secret . $str);
+}
+
+// Retrieve and sanitize file and signature parameters
+$file = isset($_GET['file']) ? $_GET['file'] : '';
+$signature = isset($_GET['signature']) ? $_GET['signature'] : '';
+
+if ($file && $signature) {
+    // Validate the signature
+    if (sign($file, $SECRET) === $signature) {
+
+        // Sanitize the filename, force UTF-8 encoding, and remove malicious characters
+        $file = mb_convert_encoding($file, 'UTF-8', 'binary');
+        $file = preg_replace('/[^\w\/.]/', '', $file);
+
+        // Set the file path in the images folder
+        $filePath = __DIR__ . "/images/" . basename($file);
+
+        // Check if the file exists and if it matches a defined product
+        if (file_exists($filePath)) {
+            $product = $products[$file];
+						// Display product details
+```
+
+
 
 **Generating the Modified Digest**
 `./hash_extender --data 1.png --signature 02d101c0ac898f9e69b7d6ec1f84a7f0d784e59bbbe057acb4cef2cf93621ba9 --append /../4.png --out-data-format=html
 
 
+**Flag is retrieved: THM{L3n6th_3Xt33ns10nssss}**
+
+### Exercise 2 - Modifying Signed Cookie
+
+This cookie is signed with SHA-256 and thus is vulnerable to the attack.
+```
+"Auth: username=user;role=0  
+HSH: bfe0fa5c36531773c73dcc8d2a931301f69cf9add05a1f35dcfa2d48b44c37f0"
+
+```
+
+**Insecure Code which Verifies Authenticity of the Cookie**
+```php
+require_once("secrets.php");
+
+// Default authorization status
+$auth = false;
+
+// Check if the 'auth' and 'hsh' cookies are set
+if (isset($_COOKIE["auth"]) && isset($_COOKIE["hsh"])) {
+    $auth = $_COOKIE["auth"]; // Get the original auth string
+    $hsh = $_COOKIE["hsh"];
+
+    // Verify the hash to ensure integrity
+    if ($hsh === hash("sha256", $SECRET . $auth)) {
+        // Instead of trying to parse, check if 'role=1' exists in the string
+        if (strpos($auth, 'role=1') !== false) {
+            echo "<html><head><title>Admin Panel</title></head><body>";
+            echo "<h1>Welcome, Admin!</h1><br><br>";
+        } elseif (strpos($auth, 'role=0') !== false) {
+            echo "<html><head><title>User Panel</title></head><body>";
+            echo "<h1>Welcome, User!</h1><br><br>";
+        }
+    }
+}
+```
+
+
+```./hash_extender --data 'username=user;role=0' --append ';admin=1' --signature bfe0fa5c36531773c73dcc8d2a931301f69cf9add0  
+5a1f35dcfa2d48b44c37f0 --format sha256 --out-data-format=html
+```
+
+
+![[modified_cookie.png]]
 
 
 
