@@ -107,5 +107,40 @@ So the offset happens at 26 B's.
 
 ### Attacking the Oracle
 
+Adding the extra function in the script will extract the entire secret
+```python
+def extract_secret(block_size, offset):
+    recovered = ""
+    
+    # Keep going until we can't find any more characters
+    while True:
+        # Shrink padding by 1 for each byte we've already recovered
+        padding_length = block_size - 1 - (len(recovered) % block_size)
+        
+        # Build initial text with offset B's + padding A's
+        initial_text = "B" * offset + "A" * padding_length
+        
+        # Get reference chunk
+        ciphertext = chat_to_oracle(initial_text)
+        chunks = split_ciphertext(ciphertext, block_size)
+        reference_chunk = chunks[1]
+        
+        # Build brute force text = offset B's + padding A's + recovered so far
+        brute_text = "B" * offset + "A" * padding_length + recovered
+        
+        # Brute force next character
+        char = brute_forcer(reference_chunk, brute_text, block_size, offset)
+        
+        if char is None:
+            print("No more characters found!")
+            break
+            
+        recovered += char
+        print(f"Recovered so far: {recovered}")
+    
+    return recovered
+
+
+``
 
 
