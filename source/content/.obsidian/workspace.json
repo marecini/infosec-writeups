@@ -170,8 +170,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Screenshots",
+    "Unconfirmed 49458.crdownload",
     "THM Web Application Pentesting/Rooms/# Example Writeup WhtsYourNam??.md",
     "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
@@ -210,7 +212,6 @@
     "THM Web Application Pentesting/Module notes/SQLi.md",
     "THM Web Application Pentesting/Some note.md",
     "THM Web Application Pentesting/Module notes/SSTi.md",
-    "THM Web Application Pentesting/SSRF.md",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
