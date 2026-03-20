@@ -9,11 +9,12 @@
   }
   // Explorer content always visible (no collapse toggle needed)
   #explorer-content {
-  display: block !important;
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #4c1d95 transparent;
+  ...
+  }
   
   &::-webkit-scrollbar {
     width: 4px;
@@ -81,7 +82,6 @@
 // ─── Mobile Visibility ───────────────────────────────────────────────────────
 @media (max-width: 768px) {
   .explorer {
-    display: block !important;
     width: 100%;
     
     #explorer-content {
