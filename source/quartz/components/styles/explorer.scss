@@ -1,20 +1,17 @@
-//  Explorer Hacker Theme 
-// Drop this into quartz/styles/custom.scss or import into explorer.scss
+// Explorer Hacker Theme
 .explorer {
   background: transparent;
   padding: 0.5rem 0;
-  // Hide the toggle button entirely since we removed the title
+  
   button#explorer {
     display: none;
   }
-  // Explorer content always visible (no collapse toggle needed)
+  
   #explorer-content {
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #4c1d95 transparent;
-  ...
-  }
   
   &::-webkit-scrollbar {
     width: 4px;
@@ -29,7 +26,7 @@
     border-radius: 2px;
   }
   }
-  // All links in explorer
+  
   a {
     color: #a855f7 !important;
     font-family: 'Courier New', Courier, monospace;
@@ -41,7 +38,7 @@
       text-shadow: 0 0 6px #a855f7;
     }
   }
-  // Folder titles
+  
   .folder-title {
     color: #c084fc !important;
     font-family: 'Courier New', Courier, monospace;
@@ -53,33 +50,32 @@
       color: #7e22ce;
     }
   }
-  // Folder icon (chevron)
+  
   .folder-icon {
     stroke: #7e22ce !important;
   }
-  // Folder container
+  
   .folder-container {
     display: flex;
     align-items: center;
     gap: 0.3rem;
     padding: 0.1rem 0;
   }
-  // Nested indent line
+  
   .folder-outer {
     border-left: 1px solid #4c1d95;
     margin-left: 0.4rem;
   }
-  // List items
+  
   li {
     padding: 0.1rem 0;
   }
-  // Overflow container
+  
   ul.overflow {
     padding-left: 0;
   }
 }
 
-// ─── Mobile Visibility ───────────────────────────────────────────────────────
 @media (max-width: 768px) {
   .explorer {
     width: 100%;
