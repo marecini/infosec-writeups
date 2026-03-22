@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
+                "file": "Web Application Red Teaming/Cryptographic Failures/Insecure Randomness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking ECB Oracles"
+              "title": "Insecure Randomness"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.51103591918945
+    "width": 294.51103591918945
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -170,12 +170,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Web Application Red Teaming/Cryptographic Failures/Padding Oracles.md",
+    "Web Application Red Teaming/Cryptographic Failures/Insecure Randomness.md",
+    "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
     "Screenshots",
     "Unconfirmed 49458.crdownload",
     "THM Web Application Pentesting/Rooms/# Example Writeup WhtsYourNam??.md",
-    "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
     "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "THM Web Application Pentesting/Rooms/El Bandito.md",
@@ -211,7 +213,6 @@
     "THM Web Application Pentesting/Module notes/Prototype Pollution.md",
     "THM Web Application Pentesting/Module notes/SQLi.md",
     "THM Web Application Pentesting/Some note.md",
-    "THM Web Application Pentesting/Module notes/SSTi.md",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
