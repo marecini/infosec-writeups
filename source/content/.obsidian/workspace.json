@@ -172,6 +172,7 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "possible_seeds.png",
     "Web Application Red Teaming/Cryptographic Failures/Padding Oracles.md",
     "Web Application Red Teaming/Cryptographic Failures/Insecure Randomness.md",
     "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
@@ -212,7 +213,6 @@
     "THM Web Application Pentesting/Module notes/PHP Object Injection.md",
     "THM Web Application Pentesting/Module notes/Prototype Pollution.md",
     "THM Web Application Pentesting/Module notes/SQLi.md",
-    "THM Web Application Pentesting/Some note.md",
     "Web Application Red Teaming",
     "THM Web Application Pentesting/Rooms",
     "HackTheBox",
