@@ -11,14 +11,12 @@
             "id": "47ef711f7e8c1d64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Web Application Red Teaming/Cryptographic Failures/Insecure Randomness.md",
-                "mode": "source",
-                "source": false
+                "file": "Screenshots/62a7685ca6e7ce005d3f3afe-1719304704357.png"
               },
-              "icon": "lucide-file",
-              "title": "Insecure Randomness"
+              "icon": "lucide-image",
+              "title": "62a7685ca6e7ce005d3f3afe-1719304704357"
             }
           }
         ]
@@ -170,11 +168,29 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "possible_seeds.png",
-    "Web Application Red Teaming/Cryptographic Failures/Padding Oracles.md",
+    "Screenshots/first_payload_for_first_flag.png",
+    "Screenshots/mappings_url.png",
+    "Screenshots/nodejsapp.png",
+    "Screenshots/web_socket_hint.png",
+    "Screenshots/vuln_url_signature.png",
+    "Screenshots/vuln_role_value.png",
+    "Screenshots/vuln_endpoint_for_websocket.png",
+    "Screenshots/Untitled.md",
+    "Screenshots/ssh_bruteforce.png",
+    "Screenshots/specific_ports_scan.png",
+    "Scripting/Powershell/Command hackz.md",
+    "Scripting",
+    "Scripting/BASH/Shell Hackz.md",
+    "Scripting/Powershell",
+    "Web Application Red Teaming/Custom Tooling/Python.md",
+    "Scripting/BASH",
+    "Scripting/BASH",
     "Web Application Red Teaming/Cryptographic Failures/Insecure Randomness.md",
+    "Web Application Red Teaming/Custom Tooling",
+    "Screenshots/possible_seeds.png",
+    "Web Application Red Teaming/Cryptographic Failures/Padding Oracles.md",
     "Web Application Red Teaming/Cryptographic Failures/Attacking ECB Oracles.md",
     "Screenshots",
     "Unconfirmed 49458.crdownload",
@@ -182,17 +198,8 @@
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
     "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "THM Web Application Pentesting/Rooms/El Bandito.md",
-    "first_block_added.png",
-    "Screenshot_20260320_151730.png",
+    "Screenshots/first_block_added.png",
     "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
-    "62a7685ca6e7ce005d3f3afe-1719304704357.png",
-    "modified_cookie.png",
-    "vuln_url_signature.png",
-    "flag.png",
-    "bit_filp_script_attack.png",
-    "vuln_role_value.png",
-    "Screenshot_20260318_192818.png",
-    "Screenshot_20260318_192616.png",
     "Web Application Red Teaming/Cryptographic Failures",
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
@@ -208,14 +215,6 @@
     "THM Web Application Pentesting/Module notes/LFI & RFI.md",
     "THM Web Application Pentesting/index.md",
     "THM Web Application Pentesting/Module notes/LDAP.md",
-    "THM Web Application Pentesting/Module notes/ORM Injection.md",
-    "THM Web Application Pentesting/Module notes/PHP.md",
-    "THM Web Application Pentesting/Module notes/PHP Object Injection.md",
-    "THM Web Application Pentesting/Module notes/Prototype Pollution.md",
-    "THM Web Application Pentesting/Module notes/SQLi.md",
-    "Web Application Red Teaming",
-    "THM Web Application Pentesting/Rooms",
-    "HackTheBox",
-    "category-folder"
+    "THM Web Application Pentesting/Module notes/ORM Injection.md"
   ]
 }

@@ -111,3 +111,11 @@ Start PHP server
 `"`php -S 0.0.0.0:8181`"`
 
 **Flag retrieved:  THM{HR_SIGNED_IN1337}**
+
+### Recap
+
+Steps
+1. Click button "Send Magic Link"
+2. Start the PHP server with `"php -S 0.0.0.0:8181"`
+3. Acquire the Token via the URL using constant `"1337"`
+4. Try out each token until one works
