@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "c55a3b771844947d",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "a46e49aa235553cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Screenshots/62a7685ca6e7ce005d3f3afe-1719304704357.png"
+                "file": "PortSwigger/Labs/BSCP Path/Lab - Web shell upload via extension blacklist bypass.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "62a7685ca6e7ce005d3f3afe-1719304704357"
+              "icon": "lucide-file",
+              "title": "Lab - Web shell upload via extension blacklist bypass"
             }
           }
         ]
@@ -170,6 +172,11 @@
   },
   "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Screenshots/62a7685ca6e7ce005d3f3afe-1719304704357.png",
+    "PortSwigger/Labs/BSCP Path/Lab - Web shell upload via extension blacklist bypass.md",
+    "PortSwigger/Labs/BSCP Path",
+    "PortSwigger/Labs",
+    "PortSwigger",
     "Screenshots/first_payload_for_first_flag.png",
     "Screenshots/mappings_url.png",
     "Screenshots/nodejsapp.png",
@@ -198,14 +205,10 @@
     "Web Application Red Teaming/Cryptographic Failures/Length Extensions Attack.md",
     "THM Web Application Pentesting/Rooms/Whats Your Name?.md",
     "THM Web Application Pentesting/Rooms/El Bandito.md",
-    "Screenshots/first_block_added.png",
     "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
-    "Web Application Red Teaming/Cryptographic Failures",
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
     "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
-    "THM Web Application Pentesting/Module notes",
-    "Web Application Red Teaming",
     "THM Web Application Pentesting/BASH.md",
     "THM Web Application Pentesting/Module notes/CORS & SOP.md",
     "THM Web Application Pentesting/Module notes/CSRF.md",
@@ -214,7 +217,6 @@
     "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
     "THM Web Application Pentesting/Module notes/LFI & RFI.md",
     "THM Web Application Pentesting/index.md",
-    "THM Web Application Pentesting/Module notes/LDAP.md",
-    "THM Web Application Pentesting/Module notes/ORM Injection.md"
+    "THM Web Application Pentesting/Module notes/LDAP.md"
   ]
 }
