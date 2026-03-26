@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PortSwigger/Labs/BSCP Path/Lab1 - Web shell upload via extension blacklist bypass.md",
+                "file": "PortSwigger/All Labs/SQLi/Lab5 SQL injection attack, listing the database contents on non-Oracle databases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab1 - Web shell upload via extension blacklist bypass"
+              "title": "Lab5 SQL injection attack, listing the database contents on non-Oracle databases"
             }
           }
         ]
@@ -172,16 +172,28 @@
   },
   "active": "a46e49aa235553cc",
   "lastOpenFiles": [
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/admin_dumped.png",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/columns_dumped.png",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/table_names_dropped.png",
+    "PortSwigger/All Labs/SQLi/Lab4 - SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
+    "PortSwigger/All Labs/SQLi/Lab5 SQL injection attack, listing the database contents on non-Oracle databases.md",
+    "PortSwigger/All Labs/SQLi/Lab3 - SQL injection attack, querying the database type and version on Oracle.md",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/lab3_pwned.png",
+    "PortSwigger/All Labs/SQLi/Lab2 - SQL injection vulnerability allowing login bypass.md",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/payload.png",
+    "PortSwigger/All Labs/SQLi/Lab1 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data.md",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/exploited.png",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/Screenshot_20260326_091944.png",
+    "PortSwigger/BSCP Path/Lab - OAuth account hijacking via redirect-uri.md",
+    "PortSwigger/All Labs/SQLi",
+    "PortSwigger/All Labs",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/Admin_callback_code.png",
+    "THM Web Application Pentesting/Module notes/CORS & SOP.md",
+    "PortSwigger/BSCP Path/Lab1 - Web shell upload via extension blacklist bypass.md",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/secret_retrieved.png",
     "index.md",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/uploading_.htaccess.png",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/updated_burp_request.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/htmlworsk.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/err_msg.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/obscure_filename.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/locate_file_location.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/php5_response.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/shell_uploaded.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/account_overview.png",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source",
@@ -190,10 +202,6 @@
     "home/marecini/Documents/Obsidian",
     "home/marecini/Documents",
     "home/marecini",
-    "home",
-    "Screenshots/62a7685ca6e7ce005d3f3afe-1719304704357.png",
-    "PortSwigger/Labs/BSCP Path/Lab1 - Web shell upload via extension blacklist bypass.md",
-    "PortSwigger/Labs/BSCP Path",
     "Screenshots/Untitled.md",
     "Scripting/Powershell/Command hackz.md",
     "Scripting/BASH/Shell Hackz.md",
@@ -209,14 +217,6 @@
     "THM Web Application Pentesting/Impacket.md",
     "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
     "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
-    "THM Web Application Pentesting/BASH.md",
-    "THM Web Application Pentesting/Module notes/CORS & SOP.md",
-    "THM Web Application Pentesting/Module notes/CSRF.md",
-    "THM Web Application Pentesting/Module notes/DOM.md",
-    "THM Web Application Pentesting/Module notes/HTTP Request Smuggling.md",
-    "THM Web Application Pentesting/HTTP Request Smuggling Web Sockets.md",
-    "THM Web Application Pentesting/Module notes/LFI & RFI.md",
-    "THM Web Application Pentesting/index.md",
-    "THM Web Application Pentesting/Module notes/LDAP.md"
+    "THM Web Application Pentesting/BASH.md"
   ]
 }
