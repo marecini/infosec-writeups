@@ -41,10 +41,10 @@ password column: `"password_sprscj"`
 
 ![[admin_dumped.png]]
 
-**Credentials**
+#### Credentials
 username | passwords
 --------- |--------- | 
-carlos : hrvjkmyabvdv1jacv3ji
-wiener : ujbtnl2k7jo8e03uxwx7
-administrator : h16ugisioytibea5t14w
+carlos | hrvjkmyabvdv1jacv3ji
+wiener | ujbtnl2k7jo8e03uxwx7
+administrator | h16ugisioytibea5t14w
 

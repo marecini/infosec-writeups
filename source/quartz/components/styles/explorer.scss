@@ -1,17 +1,20 @@
-// Explorer Hacker Theme
+// Explorer Theme
 .explorer {
   background: transparent;
   padding: 0.5rem 0;
+  min-width: 280px;
+  width: 280px;
   
   button#explorer {
     display: none;
   }
   
   #explorer-content {
+  display: block !important;
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #4c1d95 transparent;
+  scrollbar-color: #444 transparent;
   
   &::-webkit-scrollbar {
     width: 4px;
@@ -22,37 +25,36 @@
   }
   
   &::-webkit-scrollbar-thumb {
-    background: #4c1d95;
+    background: #444;
     border-radius: 2px;
   }
   }
   
   a {
-    color: #a855f7 !important;
+    color: var(--dark) !important;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.82rem;
     text-decoration: none;
-    transition: color 0.15s ease, text-shadow 0.15s ease;
+    transition: color 0.15s ease;
     &:hover {
-      color: #d8b4fe !important;
-      text-shadow: 0 0 6px #a855f7;
+      color: var(--secondary) !important;
     }
   }
   
   .folder-title {
-    color: #c084fc !important;
+    color: var(--dark) !important;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.82rem;
     font-weight: 600;
     letter-spacing: 0.03em;
     &::before {
       content: "> ";
-      color: #7e22ce;
+      color: var(--gray);
     }
   }
   
   .folder-icon {
-    stroke: #7e22ce !important;
+    stroke: var(--gray) !important;
   }
   
   .folder-container {
@@ -63,7 +65,7 @@
   }
   
   .folder-outer {
-    border-left: 1px solid #4c1d95;
+    border-left: 1px solid var(--lightgray);
     margin-left: 0.4rem;
   }
   
@@ -79,6 +81,7 @@
 @media (max-width: 768px) {
   .explorer {
     width: 100%;
+    min-width: unset;
     
     #explorer-content {
     max-height: 50vh;
