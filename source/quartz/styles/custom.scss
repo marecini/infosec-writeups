@@ -1,3 +1,12 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Wider left sidebar
+.left {
+	width: 320px !important;
+	min-width: 320px !important;
+}
+
+// Fix grid to accommodate wider sidebar
+#quartz-body {
+grid-template-columns: 320px 1fr 320px !important;
+}
