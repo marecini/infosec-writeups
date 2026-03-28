@@ -3,12 +3,6 @@
   flex-direction: column;
   overflow-y: hidden;
 
-  &.desktop-only {
-    @media all and not ($mobile) {
-      display: flex;
-    }
-  }
-
   button#explorer {
     all: unset;
     cursor: pointer;
