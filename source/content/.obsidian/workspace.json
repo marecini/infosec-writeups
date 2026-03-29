@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PortSwigger/All Labs/SQLi/Lab5 SQL injection attack, listing the database contents on non-Oracle databases.md",
+                "file": "PortSwigger/BSCP Path/OAuth account hijacking via redirect_uri.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab5 SQL injection attack, listing the database contents on non-Oracle databases"
+              "title": "OAuth account hijacking via redirect_uri"
             }
           }
         ]
@@ -172,11 +172,15 @@
   },
   "active": "a46e49aa235553cc",
   "lastOpenFiles": [
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/Screenshot_20260329_084735.png",
+    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/oauth_reedirect_uri.png",
+    "PortSwigger/All Labs/SQLi/Lab6 - SQL injection attack, listing the database contents on Oracle.md",
+    "PortSwigger/BSCP Path/OAuth account hijacking via redirect_uri.md",
+    "PortSwigger/All Labs/SQLi/Lab5 SQL injection attack, listing the database contents on non-Oracle databases.md",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/admin_dumped.png",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/columns_dumped.png",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/table_names_dropped.png",
     "PortSwigger/All Labs/SQLi/Lab4 - SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
-    "PortSwigger/All Labs/SQLi/Lab5 SQL injection attack, listing the database contents on non-Oracle databases.md",
     "PortSwigger/All Labs/SQLi/Lab3 - SQL injection attack, querying the database type and version on Oracle.md",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/lab3_pwned.png",
     "PortSwigger/All Labs/SQLi/Lab2 - SQL injection vulnerability allowing login bypass.md",
@@ -192,8 +196,6 @@
     "PortSwigger/BSCP Path/Lab1 - Web shell upload via extension blacklist bypass.md",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/secret_retrieved.png",
     "index.md",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/uploading_.htaccess.png",
-    "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots/updated_burp_request.png",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content/Screenshots",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source/content",
     "home/marecini/Documents/Obsidian/Obsidian_Vaults/infosec-writeups/source",
@@ -215,8 +217,6 @@
     "THM Web Application Pentesting/Rooms/El Bandito.md",
     "Web Application Red Teaming/Cryptographic Failures/Breaking Crypto The Simple Way.md",
     "THM Web Application Pentesting/Impacket.md",
-    "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md",
-    "THM Web Application Pentesting/Module notes/Base64 encoding, burp Intruder, brute-forcing.md",
-    "THM Web Application Pentesting/BASH.md"
+    "THM Web Application Pentesting/Module notes/Abusing JWT Validation.md"
   ]
 }
